@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#home {
+  background-image: url(images/hero.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+li, a, button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+#menu{
+    background-color: rgb(10, 7, 7);
+}
+.logo{
+    cursor: pointer;
+}
+.navbar{
+    list-style-type: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:active{
+    color:red;
+}
+.navbar li a:hover{
+    color: rgb(180, 150, 94);
+}
+button{
+    padding: 9px 25px;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgb(108, 156, 11);
+}
+main {
+  margin-left: 105px;
+  margin-top: 75px;
+}
+main h1 {
+  color: aliceblue;
+  font-family: Brush Script MT;
+}
+main p {
+  width: 450px;
+  display: inline-block;
+  color: rgb(240, 245, 248);
+}
+
+
